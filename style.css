@@ -42,13 +42,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    /* background-color: #efefef; */
 }
-
-#wrapperload .elem img{
-    width: 40%;
-}
-
 #wrapperload .elem:nth-child(1){
     animation: anim 2s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
 }
@@ -143,9 +137,10 @@ nav #links a:nth-child(2){
     font-family: "Gilroy ☞";
 }
 
-#left img{
-    width: 650px;
+#left h1{
+    font-size: 50px;
     margin-top: 30px;
+    color: #04C2C7;
 }
 
 #left>h5{
